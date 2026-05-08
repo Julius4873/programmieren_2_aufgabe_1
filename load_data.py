@@ -28,4 +28,11 @@ if __name__ == "__main__":
     print(power_W)
     sorted_power_W = bubble_sort(power_W)
     print(sorted_power_W[::-1])
+    time_array = np.arange(0, 1804, 1)
+    plt.plot(time_array, sorted_power_W[::-1])
+    plt.show()  
+    
+
+
+
   
